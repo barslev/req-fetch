@@ -1,0 +1,41 @@
+{
+  "name": "req-fetch",
+  "version": "0.0.0",
+  "description": " node-fetch bind to req object, make it easy to be isomorphic",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undoZen/req-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "req",
+    "isomorphic",
+    "request"
+  ],
+  "author": "undoZen <opensource@undozen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undoZen/req-fetch/issues"
+  },
+  "homepage": "https://github.com/undoZen/req-fetch#readme",
+  "dependencies": {
+    "bluebird": "^2.9.0",
+    "debug": "^2.1.3",
+    "node-fetch": "^1.2.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "fn-unary": "^1.0.0",
+    "qs": "^2.4.1",
+    "supertest": "^0.15.0",
+    "tape": "^4.0.0"
+  }
+}
