@@ -1,6 +1,6 @@
 {
   "name": "req-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " node-fetch bind to req object, make it easy to be isomorphic",
   "main": "index.js",
   "files": [
