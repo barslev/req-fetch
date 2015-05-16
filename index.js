@@ -5,7 +5,7 @@ var https = require('https');
 var parseUrl = require('url').parse.bind(require('url'));
 
 var debug = require('debug')('req-uest');
-var fetch = require('node-fetch');
+var fetch = global.fetch || require('node-fetch');
 fetch.Promise = require('bluebird');
 
 exports.forwardCookie = forwardCookie;
